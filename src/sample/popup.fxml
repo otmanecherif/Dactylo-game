@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="268.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PopupController">
+    <children>
+        <Text layoutX="143.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduce your username" textAlignment="CENTER" wrappingWidth="312.1329345703125">
+            <font>
+                <Font name="Calibri" size="25.0" />
+            </font>
+        </Text>
+        <TextField fx:id="username" layoutX="225.0" layoutY="174.0" promptText="Username" />
+        <Button layoutX="273.0" layoutY="220.0" mnemonicParsing="false" onAction="#submit" style="-fx-background-color: #13AED4; -fx-cursor: hand;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+    </children>
+</AnchorPane>
